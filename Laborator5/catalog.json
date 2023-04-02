@@ -1,1 +1,1 @@
-{"name":"catalog","documents":[{"id":"1","title":"carte.txt","location":"./catalog.json","tags":{"author":"Mihai Eminescu"}},{"id":"2","title":"articol.txt","location":"./catalog.json","tags":{"year":"1999"}}]}
+{"name":"catalog","documents":[{"id":"1","title":"carte","location":null,"path":"./carte.json","url":null,"tags":{"author":"Mihai Eminescu"}},{"id":"2","title":"articol","location":null,"path":"./articol.json","url":null,"tags":{"year":"1999"}}]}
