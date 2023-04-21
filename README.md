@@ -3,4 +3,4 @@
 29.03.2023: Homework3, Homework4 si Compulsory5.  
 02.04.2023: Homework5, Compulsory6.  
 14.04.2023: Homework6, Compulsory7.
-
+21.04.2023: Homework7.
