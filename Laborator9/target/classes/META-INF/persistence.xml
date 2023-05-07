@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1"
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence">
+    <persistence-unit name="ExamplePU" transaction-type="RESOURCE_LOCAL">
+        <provider>
+            oracle.toplink.essentials.PersistenceProvider
+        </provider>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle8iDialect"/>
+            <property name="toplink.logging.level" value="INFO"/>
+            <property name="toplink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+            <property name="toplink.jdbc.url" value="jdbc:oracle:thin:@myhost:l521:MYSID"/>
+            <property name="toplink.jdbc.password" value="STUDENT"/>
+            <property name="toplink.jdbc.user" value="student"/>
+        </properties>
+    </persistence-unit>
+</persistence>
